@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Navigation Bar</title>
+	<style type="text/css">
+		*{
+			text-decoration: none;
+		}
+		.navbar{
+			background: rgb(1, 255, 162); font-family: calibri; padding-right: 15px;padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;
+		}
+		.logo a{
+			font-size: 35px; font-weight: 600; color: white;
+		}
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+		}
+        .icon{
+            position: absolute;
+            height: auto;
+            left: 0px;
+            width: 30px;
+            display: inline-block;
+            
+        }
+		li a:hover{
+			background: gray;
+			text-transform: uppercase;
+		}
+		footer{
+			position: absolute;
+			background-color: rgb(255, 255, 255);
+			color:rgb(5, 35, 61);
+			bottom:0;
+			width:100%;
+			text-align: center;		
+		}
+	</style>
+</head>
+<body>
+    
+	<nav class="navbar">
+        <a href="#"><img src="" class="icon"></a>
+		<div class="navdiv">
+			<div class="logo"><a href="#">TMH</a> </div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+</body>
+<footer>
+	&copy;Developed by Over Night Coders
+</footer>
+</html>
